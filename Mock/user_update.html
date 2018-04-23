@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "ja">
+<head>
+<link rel = "stylesheet" href = "css/bootstrap.min.css">
+<link rel = "stylesheet" href = "user_update.css">
+<meta charset="UTF-8">
+<title>情報更新</title>
+</head>
+<body>
+	<ul class="nav justify-content-end navbar-dark bg-dark">
+	  <li class="nav-item">
+	    <div class="nav-link nav-name">ユーザ名さん</div>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link navi-red" HREF="index.html">ログアウト</a>
+	  </li>
+	</ul>
+
+	<div class="container" style="width:500px; height:700px;">
+		<h1>ユーザ情報更新</h1>
+		<form action="userlist.html">
+			<p style="text-align:left;"><span style="padding-right:100px;">ログインID</span>id0001</p>
+			<p style="text-align:left;"><span>パスワード</span><input type="password"name = "user password" style="margin-left:100px; width:185px;"></p>
+			<p style="text-align:left;"><span>パスワード(確認)</span><input type="password"name = "user password" style="margin-left:60px; width:185px;"></p>
+			<p style="text-align:left;"><span>ユーザ名</span><input type="text" name="userName" style="margin-left:120px; width:185px;" value="田中太郎"></p>
+			<p style="text-align:left;"><span>生年月日</span><input type="date" name="birthday" style="margin-left:120px; width:185px;"></p>
+			<input type = "submit" value = "更新" style="margin-left:210px;">
+		</form>
+		<p style="margin-top:80px;">
+		<u><A HREF="userlist.html">戻る</a></u>
+		</p>
+	</div>
+</body>
+</html>
